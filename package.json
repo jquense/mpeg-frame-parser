@@ -1,0 +1,28 @@
+{
+  "name": "mpeg-frame-stream",
+  "version": "0.0.0",
+  "description": "small mpeg audio frame metadata stream",
+  "main": "mpegFrame.js",
+  "scripts": {
+    "test": "mocha ./tests/*.js -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theporchrat/mpeg-frame-parser.git"
+  },
+  "author": "Jason Quense @theporchrat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/theporchrat/mpeg-frame-parser/issues"
+  },
+  "homepage": "https://github.com/theporchrat/mpeg-frame-parser",
+  "dependencies": {
+    "lodash": "~2.4.1",
+    "readable-stream": "~1.0.26-2"
+  },
+    "devDependencies": {
+        "chai": "~1.9.0",
+        "mocha": "~1.17.1"
+    }
+
+}
