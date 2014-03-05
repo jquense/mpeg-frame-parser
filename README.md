@@ -34,4 +34,4 @@ frame objects contain the following keys:
         version     => 1 2 2.5
         layer       => 1 2
     }
- use in conjunction with my ID3v1 parser and ID3v2 parser for more data.
+ use in conjunction with my ID3v1 parser and [ID3v2 parser](https://github.com/theporchrat/ID3v2-info-parser) for more data.
