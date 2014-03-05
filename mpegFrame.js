@@ -1,6 +1,4 @@
-﻿var fs = require('fs')
-  , Transform = require('stream').Transform
-  , util = require("util")
+﻿var util = require("util")
   , _ = require('lodash');
 
 var bitrates = {

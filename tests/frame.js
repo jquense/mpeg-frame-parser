@@ -3,7 +3,6 @@ var chai = require('chai')
   , MpegFrame = require('../mpegFrame')
   , MpegInfoStream = require('../mpegInfoStream');
 
-chai.use(sinonChai);
 chai.should();
 
 describe ('when streaming an mpeg file to an infoStream', function(){
